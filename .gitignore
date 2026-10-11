@@ -1,3 +1,7 @@
 .idea/
+!/.idea/
+/.idea/*
+!/.idea/jb-workspace.xml
+!/.idea/externalDependencies.xml
 *.iml
 .DS_Store

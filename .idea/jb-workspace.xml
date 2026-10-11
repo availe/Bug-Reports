@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WorkspaceSettings">
+    <project name="kmp-wizard-static-library-bug" path="$PROJECT_DIR$/2025/kmp-wizard-static-library-bug" />
+    <project name="property-type-mismatch-on-override-generic-inference" path="$PROJECT_DIR$/2025/property-type-mismatch-on-override-generic-inference" />
+    <project name="specify-all-remaining-arguments-selects-secondary-constructor" path="$PROJECT_DIR$/2026/specify-all-remaining-arguments-selects-secondary-constructor" />
+    <option name="workspace" value="true" />
+  </component>
+</project>

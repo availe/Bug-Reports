@@ -7,6 +7,7 @@ Each report is an independent Gradle project with its own build configuration an
 ## Reports
 
 - **2025:** [KMP wizard: duplicate project](2025/kmp-wizard-static-library-bug/) — [IDEA-382841](https://youtrack.jetbrains.com/issue/IDEA-382841)
+- **2025:** [Property type mismatch on override: generic inference](2025/property-type-mismatch-on-override-generic-inference/) — [KT-81343](https://youtrack.jetbrains.com/issue/KT-81343)
 - **2026:** [Specify all remaining arguments selects secondary constructor](2026/specify-all-remaining-arguments-selects-secondary-constructor/)
 
 ## Building
