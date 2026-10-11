@@ -25,7 +25,7 @@ fun main() {
     )
 
     // EXPECTED: Rename refactoring works even though this constructor call
-    // is also incomplete (missing required argument 'yz').
+    // is also incomplete (missing required argument 'y').
     val c = Normal(
         x = "hello",
         z = "!"
