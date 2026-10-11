@@ -2,11 +2,14 @@
 
 [KT-81343](https://youtrack.jetbrains.com/issue/KT-81343) — **As Designed**
 
-Kotlin intentionally infers an overriding property's type without using
-the overridden property's declaration. On Wasm/Native, serialization adds
-an additional supertype that makes the inferred result incompatible.
-IntelliJ analyzes this code in JVM mode, misses this incompatibility, and
-incorrectly suggests removing the necessary type argument.
+Kotlin intentionally infers an overriding property's type without considering the overridden property's declared type.
+On Wasm/Native, the serialization plugin adds an additional supertype to serializable objects, causing type inference to produce
+an incompatible result.
+
+IntelliJ analyzes the code in JVM mode, misses this incompatibility, and incorrectly suggests removing the
+explicit type argument required for multiplatform compilation. Thus it was deemed not a Kotlin compiler issue.
+
+Note: This is a minimal reproduction of the original YouTrack issue, with unnecessary dependencies removed.
 
 ## Reproduction
 
